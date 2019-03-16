@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acount"
+            android:icon="@drawable/ic_account"
+            android:title="Acount" />
+        <item
+            android:id="@+id/nav_contactphone"
+            android:icon="@drawable/ic_contact_phone"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_Phan_khoa"
+            android:icon="@drawable/ic_danhmuc_pb"
+            android:title="Phân Khoa" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send" />
+        </menu>
+    </item>
+</menu>
